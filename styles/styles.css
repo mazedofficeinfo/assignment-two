@@ -5,3 +5,31 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
+:root{
+  --section-title-color:#131318;
+  --section-text-color:rgba(19, 19, 24, 0.70);
+  --card-text-color:#5A5A5D;
+  --btn-white-color:#fff;
+  --btn-orange-color:d: #FF5400;
+}
+/* common styles here */
+/* nav styles here */
+.nav-container{
+  max-width: 1170px;
+  min-height: 50px;
+  border: 1px solid tomato;
+  margin: 100px auto 49px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 60%;
+  display: flex;
+  gap: 20px;
+}
+.menu a{
+  width: 40%;
+  text-decoration: none;
+  color: #424247;
+}
