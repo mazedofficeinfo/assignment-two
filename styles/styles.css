@@ -188,3 +188,81 @@ border-radius: 8px;
   margin-bottom: 24px;
 }
 /* choose us style section */
+.choose-us{
+  width: 1170px;
+  margin: 0 auto 100px auto;
+}
+.handpicked{
+  width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 20px;
+align-items: center;
+}
+.world-class{
+  width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 20px;
+align-items: center;
+}
+
+.best-price{
+  width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 20px;
+align-items: center;
+}
+.hotels{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--section-title-color);
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+.card-text{
+  color: #5A5A5D;
+  font-weight: 400;
+line-height: 26px;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+/* footer styles */
+footer{
+  max-width: 1170px;
+  height: 502px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 120px;
+}
+.logo-footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom:15px ;
+}
+.footer-text{
+  color: #5A5A5D;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+hr{
+   width: 60%;
+  border: 1px solid grey;
+  opacity: 0.2;
+  margin: 0 auto 50px auto;
+}
